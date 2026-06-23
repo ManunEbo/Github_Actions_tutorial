@@ -13,7 +13,7 @@ jobs:
     echo-goodbye:
         runs-on: ubuntu-latest
         steps:
-            - name: Failed step
+            - name: Success step
               run: | # this "|" states start in a new line, it indicates multi line
                 echo "I will succeed"
                 exit 0
